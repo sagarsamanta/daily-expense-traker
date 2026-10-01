@@ -1,0 +1,22 @@
+{
+  "name": "Spendly — Expense & Event Tracker",
+  "short_name": "Spendly",
+  "description": "Daily expenses, home building, weddings — who to pay, what to buy, reminders.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6fa",
+  "theme_color": "#5b5ef4",
+  "categories": ["finance", "productivity", "lifestyle"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Add expense", "url": "/?add=expense", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Shopping list", "url": "/shopping", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Reminders", "url": "/reminders", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
